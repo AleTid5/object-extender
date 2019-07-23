@@ -1,0 +1,14 @@
+{
+    "name": "object-extender",
+    "description": "Object extender to have native array functions and avoid using Object.keys everywhere.",
+    "version": "0.0.1",
+    "repository": "https://github.com/AleTid5/object-extender.git",
+    "scripts": {
+        "build": "babel src -d lib"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.5.5",
+        "@babel/core": "^7.5.5",
+        "babel-cli": "^6.0.0"
+    }
+}
